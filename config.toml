@@ -1,0 +1,71 @@
+baseurl = "https://anskarl.github.io/"
+title = "Anastasios Skarlatidis"
+languageCode = "en-us"
+paginate = 5
+Copyright = "All rights reserved - 2016"
+canonifyurls = true
+
+[Params]
+  author = "Anastasios Skarlatidis"
+  description = "Artificial Intelligence and Software Engineering"
+  cover = "images/bridge.jpg"
+  authorwebsite = "https://anskarl.github.io"
+  bio = "Data Scientist/Engineer. PhD in Artificial Intelligence, passionate about Machine Learning, Programming and open-source."
+  logo = "images/face.jpg"
+  githubName = "anskarl"
+  twitterName = "anskarl"
+  linkedinName = "anskarl"
+  hideHUGOSupport = false
+
+  
+[sitemap]
+  ChangeFreq = ""
+  Filename = "sitemap.xml"
+  Priority = "-1"
+ 
+[[menu.main]]
+  name = "Home"
+  weight = -120
+  identifier = "home"
+  url = "/"
+  
+  
+[[menu.main]]
+  name = "About me"
+  weight = -110
+  identifier = "about"
+  url = "/about"
+  
+[[menu.main]]
+  name = "Publications"
+  weight = -100
+  identifier = "publication"
+  url = "/publications"
+
+[[menu.main]]
+  name = "LoMRF"
+  weight = -99
+  identifier = "LoMRF"
+  url = "https://anskarl.github.io/LoMRF/"
+ 
+[[menu.main]]
+  name = "Twitter"
+  pre = "<h5>Follow me</h5>"
+  url = "https://www.twitter.com/anskarl"
+  weight = -80 
+  
+[[menu.main]]
+  name = "Github"
+  url = "https://github.com/anskarl"
+  weight = -70 
+  
+[[menu.main]]
+  name = "LinkedIn"
+  url = "https://linkedin.com/in/anskarl"
+  weight = -60   
+ 
+[[menu.main]]
+  name = "Keybase (secure msg)"
+  pre = "<h5>Contact me</h5>"
+  url = "https://Keybase.io/anskarl"
+  weight = -40
